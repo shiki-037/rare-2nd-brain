@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ObsidianとClaudeCodeとNotebookLMとGitHubの連携",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,8 @@
               "title": "ブックマーク"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -223,7 +224,7 @@
       "star-notebooklm:Open NotebookLM": false
     }
   },
-  "active": "c05ca5ee9f0529bb",
+  "active": "19703735ca4ef798",
   "lastOpenFiles": [
     "Obsidianが第二の脳.md",
     "無題のファイル.md",
