@@ -1,2 +1,3 @@
 #ObsidianとClaudeCodeとNotebookLMとGitHubの連携
 -トークン消費が抑えられる
+-Git連携テスト
