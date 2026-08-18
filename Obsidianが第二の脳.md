@@ -1,3 +1,4 @@
 #ObsidianとClaudeCodeとNotebookLMとGitHubの連携
 -トークン消費が抑えられる
 -Git連携テスト
+Obsidianを第二の脳として使い、Gemini NotebookやClaude Code、GitHubなどと連携することで、AIを使った情報整理と知識管理を効率化できる。
