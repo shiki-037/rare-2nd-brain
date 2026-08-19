@@ -39,14 +39,10 @@
             "id": "3e960f0392643262",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidianが第二の脳.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidianが第二の脳"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
             }
           }
         ],
@@ -239,13 +235,13 @@
   },
   "active": "3e960f0392643262",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "Obsidianが第二の脳.md",
+    "README.md",
     "ようこそ.md",
     "無題のファイル 1.canvas",
     "無題のファイル.canvas",
-    "README.md",
-    "CLAUDE.md",
     "AI活用テスト.md",
-    "Obsidianが第二の脳.md",
     "無題のフォルダ",
     "2026-08-18.md"
   ]
