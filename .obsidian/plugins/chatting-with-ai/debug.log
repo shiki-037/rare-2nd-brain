@@ -2123,3 +2123,83 @@
   "model": "gpt-5.5",
   "provider": "chatgpt-oauth"
 }
+
+--- USER_MESSAGE [2026-08-20T11:48:44.601Z] ---
+{
+  "userMessage": "テストです",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T11:48:46.609Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 1439,
+    "outputTokens": 49
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T11:50:35.608Z] ---
+{
+  "userMessage": "Obsidian内で「AI連携テストまとめ」というノートを検索してください。\n検索だけ行い、ノートの変更や作成はしないでください。\n検索結果を教えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T11:50:37.951Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 1575,
+    "outputTokens": 65
+  }
+}
+
+--- API_RESPONSE [2026-08-20T11:50:39.771Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 1657,
+    "outputTokens": 40
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T11:51:47.179Z] ---
+{
+  "userMessage": "先ほど検索で見つかった「AI連携テストまとめ.md」を読み取ってください。\n\n読み取りだけ行ってください。\nノートの変更・編集・作成は絶対に行わないでください。\n\n読み取ったノートのタイトルと、本文の最初の3行だけを教えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T11:51:49.812Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 1809,
+    "outputTokens": 78
+  }
+}
+
+--- API_RESPONSE [2026-08-20T11:51:53.497Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 2087,
+    "outputTokens": 96
+  }
+}

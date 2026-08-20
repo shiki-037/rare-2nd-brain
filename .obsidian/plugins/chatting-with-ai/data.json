@@ -1,7 +1,7 @@
 {
   "provider": "chatgpt-oauth",
   "apiKey": "",
-  "model": "gpt-5.5",
+  "model": "gpt-5.4",
   "maxIterations": 20,
   "enableWebSearch": false
 }
