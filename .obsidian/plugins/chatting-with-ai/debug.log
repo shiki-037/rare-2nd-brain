@@ -1262,3 +1262,138 @@
     "outputTokens": 77
   }
 }
+
+--- USER_MESSAGE [2026-08-20T10:03:47.571Z] ---
+{
+  "userMessage": "「AI活用テスト」というノートを開いて、内容を読み取ってください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:03:50.993Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2000,
+    "outputTokens": 105
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:03:53.356Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 2167,
+    "outputTokens": 54
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:06:16.381Z] ---
+{
+  "userMessage": "「ChatGPT連携確認テスト」という新しいノートを作成してください。\n本文には「ChatGPTとObsidianの連携テストに成功しました。」と書いてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:06:19.558Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2311,
+    "outputTokens": 100
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:06:22.355Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 2389,
+    "outputTokens": 47
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:07:39.586Z] ---
+{
+  "userMessage": "「ChatGPT連携確認テスト」というノートを開いてください。\n本文の最後に「既存ノートの編集テストにも成功しました。」と1行追加してください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:07:44.371Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2524,
+    "outputTokens": 94
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:07:46.769Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2652,
+    "outputTokens": 57
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:07:48.720Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 2741,
+    "outputTokens": 31
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:08:53.817Z] ---
+{
+  "userMessage": "「ChatGPT連携確認テスト」というノートを探して、本文を読み取ってください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:08:56.566Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2838,
+    "outputTokens": 78
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:09:04.819Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 2986,
+    "outputTokens": 57
+  }
+}
