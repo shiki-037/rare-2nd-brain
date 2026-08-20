@@ -706,3 +706,109 @@
     "outputTokens": 80
   }
 }
+
+--- USER_MESSAGE [2026-08-20T04:11:09.418Z] ---
+{
+  "userMessage": "保管庫内を検索して回答してください。\n\n質問：\n「この保管庫では、Obsidianを何のために使う方針になっていますか？」\n\nルール：\n\n1. 保管庫内のノートだけを根拠にしてください。\n2. 回答の根拠になったノート名をすべて提示してください。\n3. ノートに実際に書かれている内容と、あなたの推測を分けてください。\n4. ノートに書かれていない内容は補完しないでください。\n5. 複数のノートに関連する記述がある場合は、まとめてください。\n6. 最後に「今回の回答で最も根拠が強い情報」を1つ示してください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T04:11:16.097Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 27284,
+    "outputTokens": 196
+  }
+}
+
+--- API_RESPONSE [2026-08-20T04:11:22.388Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 28370,
+    "outputTokens": 230
+  }
+}
+
+--- API_RESPONSE [2026-08-20T04:11:48.790Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 31082,
+    "outputTokens": 1035
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T04:16:20.702Z] ---
+{
+  "userMessage": "保管庫内を検索して回答してください。\n\n質問：\n「この保管庫で、AIとObsidianを連携して行おうとしていることを、具体的な作業として5つ挙げてください。」\n\nルール：\n\n1. 保管庫内のノートだけを根拠にしてください。\n2. 必ず具体的な作業として5つ挙げてください。\n3. それぞれについて、根拠になったノート名を示してください。\n4. 複数のノートに同じ内容がある場合は、そのことも示してください。\n5. ノートに書かれていない内容を推測して追加しないでください。\n6. 「ノートに書かれている内容」と「あなたの推測」を明確に分けてください。\n7. 5つ見つからない場合は、無理に5つ作らず「確認できたのは○個」と回答してください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T04:16:25.904Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 28972,
+    "outputTokens": 198
+  }
+}
+
+--- API_RESPONSE [2026-08-20T04:16:33.157Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 30083,
+    "outputTokens": 288
+  }
+}
+
+--- API_RESPONSE [2026-08-20T04:17:00.016Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 32904,
+    "outputTokens": 1366
+  }
+}
