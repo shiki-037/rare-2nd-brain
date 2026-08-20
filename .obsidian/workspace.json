@@ -235,19 +235,9 @@
               "icon": "book-open",
               "title": "NotebookLM"
             }
-          },
-          {
-            "id": "8df53f202649178b",
-            "type": "leaf",
-            "state": {
-              "type": "ochatting-view",
-              "state": {},
-              "icon": "message-circle",
-              "title": "Chatting with AI"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -268,7 +258,7 @@
       "star-notebooklm:Open NotebookLM": false
     }
   },
-  "active": "8df53f202649178b",
+  "active": "c05ca5ee9f0529bb",
   "lastOpenFiles": [
     "rare 2nd-brain/AI × Obsidian 活用まとめ 改訂版.md",
     "rare 2nd-brain/AI × Obsidian 活用まとめ.md",
