@@ -1670,3 +1670,209 @@
     "outputTokens": 10
   }
 }
+
+--- USER_MESSAGE [2026-08-20T10:22:48.190Z] ---
+{
+  "userMessage": "Obsidianの「AI活用テスト」というノートを開いてください。\n\nその内容を読んだうえで、\n「このノートを今後どんな用途に使うと便利か」\nを3つ提案してください。\n\nノートの内容は変更しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:22:50.990Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 3486,
+    "outputTokens": 86
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:22:55.277Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 3653,
+    "outputTokens": 134
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:24:04.786Z] ---
+{
+  "userMessage": "Obsidianの「AI活用テスト」というノートを読み取ってください。\n\nその内容を、\n・目的\n・現在わかっていること\n・今後できそうなこと\nの3項目に整理してください。\n\nノートの内容は変更しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:24:07.596Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 3897,
+    "outputTokens": 60
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:24:10.860Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 3984,
+    "outputTokens": 110
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:26:00.794Z] ---
+{
+  "userMessage": "Obsidian内から「ChatGPT連携テスト」と「AI活用テスト」という2つのノートを探してください。\n\nそれぞれの内容を読み取り、\n1. ChatGPT連携テストで確認できたこと\n2. AI活用テストで確認できたこと\n3. 2つのノートからわかるObsidianとAI連携の現在の状態\n\nの3項目に整理してください。\n\nノートの内容は変更しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:26:03.953Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4251,
+    "outputTokens": 88
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:26:06.812Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4398,
+    "outputTokens": 80
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:26:11.604Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 4573,
+    "outputTokens": 169
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:27:24.638Z] ---
+{
+  "userMessage": "Obsidian内の「ChatGPT連携テスト」と「AI活用テスト」の内容をもとに、\n「AI連携テストまとめ」という新しいノートを作成してください。\n\n本文には次の3項目を入れてください。\n\n1. ChatGPT連携テストで確認できたこと\n2. AI活用テストで確認できたこと\n3. 2つのテストからわかる現在のAI連携状態\n\n最後に、\n「複数ノートの検索・読み取り・整理・新規ノート作成まで正常に動作した。」\nと1行追加してください。\n\n既存のノートは変更しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:27:30.427Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4264,
+    "outputTokens": 238
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:27:34.450Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4504,
+    "outputTokens": 80
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:27:40.358Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4679,
+    "outputTokens": 242
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:27:43.384Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 4948,
+    "outputTokens": 40
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:28:41.903Z] ---
+{
+  "userMessage": "Obsidianの「AI連携テストまとめ」というノートを開いてください。\n\n本文の一番最後に、次の1行だけ追加してください。\n\n「既存ノートの指定・読み取り・編集が正常に動作した。」\n\nそれ以外の本文は変更しないでください。\n\n送信したら、編集結果を教えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:28:44.769Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 5114,
+    "outputTokens": 91
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:28:48.456Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 5423,
+    "outputTokens": 62
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:28:50.874Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 5516,
+    "outputTokens": 46
+  }
+}
