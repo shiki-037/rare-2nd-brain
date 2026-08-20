@@ -2079,3 +2079,34 @@
     "outputTokens": 431
   }
 }
+
+--- USER_MESSAGE [2026-08-20T11:23:08.956Z] ---
+{
+  "userMessage": "Obsidian内にある「AI連携テストまとめ」というノートを読み取ってください。\n\nその内容を変更せずに、\n1. このノートから確認できること\n2. 今後この連携を実際のObsidian作業でどう使えるか\n3. 今回のテストでまだ確認できていないこと\n\nの3項目に整理してください。\n\n新しいノートは作成しないでください。\n既存のノートも変更しないでください。\n\n送信したら、結果を教えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T11:23:12.002Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 14934,
+    "outputTokens": 57
+  }
+}
+
+--- API_RESPONSE [2026-08-20T11:23:19.569Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 15219,
+    "outputTokens": 264
+  }
+}
