@@ -1183,3 +1183,82 @@
   "model": "gpt-5.5",
   "provider": "chatgpt-oauth"
 }
+
+--- USER_MESSAGE [2026-08-20T09:52:42.187Z] ---
+{
+  "userMessage": "テスト",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T09:52:45.513Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 1436,
+    "outputTokens": 63
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T09:54:00.638Z] ---
+{
+  "userMessage": "「AI活用テスト」というノートを探してください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T09:54:02.955Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 1520,
+    "outputTokens": 42
+  }
+}
+
+--- API_RESPONSE [2026-08-20T09:54:04.731Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 1591,
+    "outputTokens": 29
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T09:56:17.054Z] ---
+{
+  "userMessage": "見つかった「AI活用テスト」のノートを開いて、最初の3行を教えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T09:56:20.657Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 1687,
+    "outputTokens": 113
+  }
+}
+
+--- API_RESPONSE [2026-08-20T09:56:23.783Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 1854,
+    "outputTokens": 77
+  }
+}
