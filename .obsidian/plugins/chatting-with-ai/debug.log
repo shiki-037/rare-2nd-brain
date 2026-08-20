@@ -1118,3 +1118,29 @@
   "model": "gpt-5.5",
   "provider": "chatgpt-oauth"
 }
+
+--- USER_MESSAGE [2026-08-20T05:17:50.702Z] ---
+{
+  "userMessage": "実用テスト",
+  "hasSelection": false
+}
+
+--- API_ERROR [2026-08-20T05:17:51.713Z] ---
+{
+  "error": "ChatGPT OAuth request failed (400): The 'gpt-5.3-codex' model is not supported when using Codex with a ChatGPT account.. The Codex backend may not accept the selected model or request format. Try reconnecting, picking a different model, or switching to OpenAI API Key.",
+  "model": "gpt-5.3-codex",
+  "provider": "chatgpt-oauth"
+}
+
+--- USER_MESSAGE [2026-08-20T05:22:23.696Z] ---
+{
+  "userMessage": "こんにちは",
+  "hasSelection": false
+}
+
+--- API_ERROR [2026-08-20T05:22:25.707Z] ---
+{
+  "error": "ChatGPT OAuth request failed (400): No tool call found for function call output with call_id call_L0xc9hZQyMKYn3Rz3yn2Sen5.. The Codex backend may not accept the selected model or request format. Try reconnecting, picking a different model, or switching to OpenAI API Key.",
+  "model": "gpt-5.5",
+  "provider": "chatgpt-oauth"
+}
