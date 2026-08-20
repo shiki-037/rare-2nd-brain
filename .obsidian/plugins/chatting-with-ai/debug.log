@@ -2203,3 +2203,151 @@
     "outputTokens": 96
   }
 }
+
+--- USER_MESSAGE [2026-08-20T11:54:19.396Z] ---
+{
+  "userMessage": "「AI連携テストまとめ.md」を編集してください。\n\n本文の最後に、次の1行だけ追加してください。\n\nAI連携テスト編集確認\n\nそれ以外の本文は絶対に変更しないでください。\n新しいノートも作成しないでください。\n\n編集が完了したら、実行結果を教えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T11:54:21.954Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2301,
+    "outputTokens": 82
+  }
+}
+
+--- API_RESPONSE [2026-08-20T11:54:24.194Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2598,
+    "outputTokens": 51
+  }
+}
+
+--- API_RESPONSE [2026-08-20T11:54:27.065Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 2680,
+    "outputTokens": 62
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T11:55:25.966Z] ---
+{
+  "userMessage": "最後の確認です。\n\n現在の接続状態で、Obsidianの「AI連携テストまとめ.md」を読み取り、\n本文を変更せずに、正常に読み取れていることだけ教えてください。\n\n新しいノートは作成しないでください。\n既存ノートも変更しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T11:55:28.096Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2855,
+    "outputTokens": 49
+  }
+}
+
+--- API_RESPONSE [2026-08-20T11:55:30.528Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 3155,
+    "outputTokens": 31
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T11:58:41.175Z] ---
+{
+  "userMessage": "AI連携テストまとめ.mdの末尾に、次の1行だけ追加してください。\n\n【最終テスト確認】\n\nそれ以外の本文は変更しないでください。\n新しいノートは作成しないでください。\n実行結果だけ教えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T11:58:44.065Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 3288,
+    "outputTokens": 63
+  }
+}
+
+--- API_RESPONSE [2026-08-20T11:58:46.129Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 3591,
+    "outputTokens": 51
+  }
+}
+
+--- API_RESPONSE [2026-08-20T11:58:48.454Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 3673,
+    "outputTokens": 36
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T11:59:47.762Z] ---
+{
+  "userMessage": "AI連携テストまとめ.mdを読み取ってください。\n\n本文を変更しないでください。\n新しいノートも作成しないでください。\n\n末尾に「【最終テスト確認】」が存在するかだけ確認してください。\n存在する場合は「最終テスト確認あり」とだけ答えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T11:59:50.830Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 3822,
+    "outputTokens": 58
+  }
+}
+
+--- API_RESPONSE [2026-08-20T11:59:52.155Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 4127,
+    "outputTokens": 10
+  }
+}
