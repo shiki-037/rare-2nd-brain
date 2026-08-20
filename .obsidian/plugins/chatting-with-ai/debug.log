@@ -1157,3 +1157,29 @@
   "model": "gpt-5.5",
   "provider": "chatgpt-oauth"
 }
+
+--- USER_MESSAGE [2026-08-20T09:21:55.868Z] ---
+{
+  "userMessage": "Obsidianの保管庫を検索してください。\n「AI活用テスト」というノートを探してください。",
+  "hasSelection": false
+}
+
+--- API_ERROR [2026-08-20T09:21:57.286Z] ---
+{
+  "error": "ChatGPT OAuth request failed (400): No tool call found for function call output with call_id call_L0xc9hZQyMKYn3Rz3yn2Sen5.. The Codex backend may not accept the selected model or request format. Try reconnecting, picking a different model, or switching to OpenAI API Key.",
+  "model": "gpt-5.5",
+  "provider": "chatgpt-oauth"
+}
+
+--- USER_MESSAGE [2026-08-20T09:24:42.155Z] ---
+{
+  "userMessage": "「AI活用テスト」というノートを探してください。",
+  "hasSelection": false
+}
+
+--- API_ERROR [2026-08-20T09:24:42.868Z] ---
+{
+  "error": "ChatGPT OAuth request failed (400): No tool call found for function call output with call_id call_L0xc9hZQyMKYn3Rz3yn2Sen5.. The Codex backend may not accept the selected model or request format. Try reconnecting, picking a different model, or switching to OpenAI API Key.",
+  "model": "gpt-5.5",
+  "provider": "chatgpt-oauth"
+}
