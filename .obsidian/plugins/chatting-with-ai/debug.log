@@ -1144,3 +1144,16 @@
   "model": "gpt-5.5",
   "provider": "chatgpt-oauth"
 }
+
+--- USER_MESSAGE [2026-08-20T08:51:34.396Z] ---
+{
+  "userMessage": "Clear",
+  "hasSelection": false
+}
+
+--- API_ERROR [2026-08-20T08:51:36.997Z] ---
+{
+  "error": "ChatGPT OAuth request failed (400): No tool call found for function call output with call_id call_L0xc9hZQyMKYn3Rz3yn2Sen5.. The Codex backend may not accept the selected model or request format. Try reconnecting, picking a different model, or switching to OpenAI API Key.",
+  "model": "gpt-5.5",
+  "provider": "chatgpt-oauth"
+}
