@@ -1397,3 +1397,276 @@
     "outputTokens": 57
   }
 }
+
+--- USER_MESSAGE [2026-08-20T10:12:56.108Z] ---
+{
+  "userMessage": "「実用テスト」というノートを探して、本文を読み取ってください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:12:58.029Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 1456,
+    "outputTokens": 46
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:12:59.603Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 1536,
+    "outputTokens": 29
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:13:01.921Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 1612,
+    "outputTokens": 53
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:13:44.596Z] ---
+{
+  "userMessage": "「実用テスト_作成確認」という新しいノートを作成してください。\n本文には「ChatGPTからObsidianへの新規ノート作成に成功しました。」と書いてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:13:46.911Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 1753,
+    "outputTokens": 53
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:13:48.537Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 1835,
+    "outputTokens": 23
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:14:56.123Z] ---
+{
+  "userMessage": "「実用テスト_作成確認」というノートを開いてください。\n本文の最後に、\n「編集テストにも成功しました。」\nと1行追加してください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:14:59.792Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 1938,
+    "outputTokens": 113
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:15:03.570Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2071,
+    "outputTokens": 53
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:15:05.537Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 2157,
+    "outputTokens": 25
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:17:09.161Z] ---
+{
+  "userMessage": "Obsidianの「AI活用テスト」というノートを探してください。\n見つかったら、そのノートの内容を3行以内で要約してください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:17:10.941Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2262,
+    "outputTokens": 32
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:17:12.795Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2333,
+    "outputTokens": 37
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:17:15.437Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 2420,
+    "outputTokens": 72
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:18:18.758Z] ---
+{
+  "userMessage": "Obsidianの中から「ChatGPT連携テスト」というノートを探してください。\n見つかったら、本文をそのまま読み取ってください。\n内容の変更はしないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:18:20.700Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2581,
+    "outputTokens": 33
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:18:22.392Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2647,
+    "outputTokens": 31
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:18:24.637Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 2715,
+    "outputTokens": 56
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:19:15.169Z] ---
+{
+  "userMessage": "「ChatGPT連携テスト」というノートを開いてください。\n\n本文の一番最後に、次の1行だけ追加してください。\n\n「最終編集テストに成功しました。」\n\nそれ以外の内容は変更しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:19:18.018Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 2868,
+    "outputTokens": 94
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:19:21.569Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 3004,
+    "outputTokens": 53
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:19:23.873Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 3088,
+    "outputTokens": 28
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:21:14.160Z] ---
+{
+  "userMessage": "Obsidianの「ChatGPT連携テスト」というノートを開いてください。\n\nこのノートの内容を確認して、\n「ChatGPTとObsidianの連携が正常に動作している」\nかどうかだけ答えてください。\n\nノートの内容は変更しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:21:17.151Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 3224,
+    "outputTokens": 74
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:21:18.942Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 3370,
+    "outputTokens": 10
+  }
+}
