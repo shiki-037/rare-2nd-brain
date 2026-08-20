@@ -231,9 +231,19 @@
               "icon": "book-open",
               "title": "NotebookLM"
             }
+          },
+          {
+            "id": "8df53f202649178b",
+            "type": "leaf",
+            "state": {
+              "type": "ochatting-view",
+              "state": {},
+              "icon": "message-circle",
+              "title": "Chatting with AI"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -241,6 +251,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "chatting-with-ai:Open Chatting with AI": false,
       "obsidian-git:Open Git source control": false,
       "switcher:クイックスイッチャーを開く": false,
       "graph:グラフビューを開く": false,
@@ -253,7 +264,7 @@
       "star-notebooklm:Open NotebookLM": false
     }
   },
-  "active": "aadc565471bcf239",
+  "active": "8df53f202649178b",
   "lastOpenFiles": [
     "note投稿済のエイリアス",
     "リンクを作成.md",
