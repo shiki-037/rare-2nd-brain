@@ -1,0 +1,132 @@
+
+--- USER_MESSAGE [2026-08-20T00:46:24.827Z] ---
+{
+  "userMessage": "テストです。現在",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T00:46:29.350Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4191,
+    "outputTokens": 61
+  }
+}
+
+--- API_RESPONSE [2026-08-20T00:46:31.285Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 4266,
+    "outputTokens": 25
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T00:48:34.271Z] ---
+{
+  "userMessage": "テストです。現在開いているObsidianのノートを確認できますか？",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T00:48:37.249Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4335,
+    "outputTokens": 14
+  }
+}
+
+--- API_RESPONSE [2026-08-20T00:48:39.298Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 4365,
+    "outputTokens": 17
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T00:50:12.391Z] ---
+{
+  "userMessage": "現在開いている「ようこそ」のノートの内容を読み取って、最初の3行を教えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T00:50:15.328Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4435,
+    "outputTokens": 54
+  }
+}
+
+--- API_RESPONSE [2026-08-20T00:50:17.505Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4502,
+    "outputTokens": 35
+  }
+}
+
+--- API_RESPONSE [2026-08-20T00:50:20.503Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 4620,
+    "outputTokens": 79
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T00:51:33.576Z] ---
+{
+  "userMessage": "現在のObsidianの保管庫にあるノートを検索して、「AI活用テスト」という名前のノートがあるか確認してください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T00:51:35.583Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4757,
+    "outputTokens": 32
+  }
+}
+
+--- API_RESPONSE [2026-08-20T00:51:37.953Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 4828,
+    "outputTokens": 38
+  }
+}
