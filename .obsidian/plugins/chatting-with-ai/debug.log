@@ -130,3 +130,155 @@
     "outputTokens": 38
   }
 }
+
+--- USER_MESSAGE [2026-08-20T00:52:46.847Z] ---
+{
+  "userMessage": "「AI活用テスト.md」の内容を読み取ってください。\n内容を変更したり編集したりせず、書かれている内容をそのまま確認してください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T00:52:49.123Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 4929,
+    "outputTokens": 37
+  }
+}
+
+--- API_RESPONSE [2026-08-20T00:52:53.082Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 5016,
+    "outputTokens": 56
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T00:54:01.793Z] ---
+{
+  "userMessage": "このObsidian連携で、現在できる操作を教えてください。\n\n特に、\n1. ノートの検索\n2. ノートの読み取り\n3. ノートの新規作成\n4. 既存ノートへの追記\n5. 既存ノートの編集\n6. ノートの削除\n\nについて、それぞれ「できる / できない」で答えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T00:54:06.870Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 5187,
+    "outputTokens": 152
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T00:56:07.989Z] ---
+{
+  "userMessage": "「ChatGPT連携テスト」という新しいノートを作成してください。\n\n内容は次の3行だけにしてください。\n\n# ChatGPT連携テスト\nChatGPTとObsidianの連携テストです。\n作成テストに成功しました。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T00:56:15.775Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 5420,
+    "outputTokens": 229
+  }
+}
+
+--- API_RESPONSE [2026-08-20T00:56:19.691Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 5560,
+    "outputTokens": 61
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T00:57:26.615Z] ---
+{
+  "userMessage": "「ChatGPT連携テスト.md」を読み取ってください。\nその内容を、書かれている通りに確認してください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T00:57:30.893Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 5674,
+    "outputTokens": 31
+  }
+}
+
+--- API_RESPONSE [2026-08-20T00:57:33.150Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 5737,
+    "outputTokens": 40
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T00:58:37.936Z] ---
+{
+  "userMessage": "「ChatGPT連携テスト.md」の末尾に、次の1行だけ追加してください。\n\n追記テスト成功\n\n既存の内容は変更・削除しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T00:58:40.978Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 5843,
+    "outputTokens": 56
+  }
+}
+
+--- API_RESPONSE [2026-08-20T00:58:43.509Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 5931,
+    "outputTokens": 49
+  }
+}
+
+--- API_RESPONSE [2026-08-20T00:58:46.543Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 6011,
+    "outputTokens": 30
+  }
+}

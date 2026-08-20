@@ -59,10 +59,14 @@
             "id": "260a1fd90a7024f2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "type": "markdown",
+              "state": {
+                "file": "rare 2nd-brain/ChatGPT連携テスト.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ChatGPT連携テスト"
             }
           }
         ],
@@ -264,8 +268,9 @@
       "star-notebooklm:Open NotebookLM": false
     }
   },
-  "active": "8df53f202649178b",
+  "active": "260a1fd90a7024f2",
   "lastOpenFiles": [
+    "rare 2nd-brain/ChatGPT連携テスト.md",
     "note投稿済のエイリアス",
     "リンクを作成.md",
     "rare 2nd-brain/初期設定・説明書/ようこそ.md",
@@ -290,7 +295,6 @@
     "rare 2nd-brain/note投稿済/AI note無料投稿/1-65-4.png",
     "rare 2nd-brain/note投稿済/AI note無料投稿/1-64-3.png",
     "rare 2nd-brain/note投稿済/AI note無料投稿/1-63-2.png",
-    "rare 2nd-brain/note投稿済/AI note無料投稿/1-6.rtf",
     "無題のファイル 1.md",
     "rare 2nd-brain/初期設定・説明書/Obsidianが第二の脳.md",
     "rare 2nd-brain/初期設定・説明書/README.md",
