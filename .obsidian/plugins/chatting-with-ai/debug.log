@@ -643,3 +643,66 @@
     "outputTokens": 3163
   }
 }
+
+--- USER_MESSAGE [2026-08-20T04:06:34.832Z] ---
+{
+  "userMessage": "保管庫内を検索して回答してください。\n\n次の質問に答えてください。\n\n「私がObsidianを使い始めた正確な日付はいつですか？」\n\nルール：\n\n1. 保管庫内に日付が明記されている場合だけ答える。\n2. 日付が確認できない場合は「保管庫内では確認できません」と答える。\n3. ファイルの作成日時や現在日時から推測しない。\n4. 「おそらく」「たぶん」などによる推測は禁止。\n5. 根拠となったノート名を提示する。\n6. 回答前に、本当にその日付がノート本文に存在するか確認する。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T04:06:40.934Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 25622,
+    "outputTokens": 81
+  }
+}
+
+--- API_RESPONSE [2026-08-20T04:06:45.389Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 25733,
+    "outputTokens": 147
+  }
+}
+
+--- API_RESPONSE [2026-08-20T04:06:51.051Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 26619,
+    "outputTokens": 227
+  }
+}
+
+--- API_RESPONSE [2026-08-20T04:06:55.726Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 26995,
+    "outputTokens": 80
+  }
+}
