@@ -2110,3 +2110,16 @@
     "outputTokens": 264
   }
 }
+
+--- USER_MESSAGE [2026-08-20T11:26:36.324Z] ---
+{
+  "userMessage": "Obsidian内の「ChatGPT連携テスト」というノートを確認してください。\n\nそのノートへの内部リンクを、「AI連携テストまとめ」というノートの本文の一番最後に1行だけ追加してください。\n\n追加する文字列は、次の形式にしてください。\n\n[[ChatGPT連携テスト]]\n\nそれ以外の本文は変更しないでください。\n\n送信したら、実行結果を教えてください。",
+  "hasSelection": false
+}
+
+--- API_ERROR [2026-08-20T11:26:37.122Z] ---
+{
+  "error": "ChatGPT OAuth request failed (400): No tool call found for function call output with call_id call_FVRFclrUYRtaQKwchP9LMsGu.. The Codex backend may not accept the selected model or request format. Try reconnecting, picking a different model, or switching to OpenAI API Key.",
+  "model": "gpt-5.5",
+  "provider": "chatgpt-oauth"
+}
