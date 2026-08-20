@@ -1876,3 +1876,135 @@
     "outputTokens": 46
   }
 }
+
+--- USER_MESSAGE [2026-08-20T10:33:05.659Z] ---
+{
+  "userMessage": "Obsidian内から、AI連携に関係するノートを探してください。\n\n特に、\n「ChatGPT連携テスト」\n「AI活用テスト」\n「AI連携テストまとめ」\nの3つを確認してください。\n\n3つのノートの内容をもとに、\n「AI連携の現状確認」という新しいノートを作成してください。\n\n本文には次の内容を整理してください。\n\n1. 現在正常に動作している機能\n2. これまでのテストで確認できたこと\n3. 現時点でエラーが発生していない機能\n4. 今後テストするべき機能\n\n最後に、\n「AI連携の基本機能は正常に動作している。」\nと1行追加してください。\n\n既存のノートは変更しないでください。\n\n送信したら、作成結果を教えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:33:10.581Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 5160,
+    "outputTokens": 196
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:33:13.844Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 5459,
+    "outputTokens": 107
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:33:24.511Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 5887,
+    "outputTokens": 486
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:33:28.103Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 6401,
+    "outputTokens": 117
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:38:34.631Z] ---
+{
+  "userMessage": "Obsidian内のノートから、\n「AI連携」または「ChatGPT」に関係する内容を探してください。\n\n見つかったノートについて、\n\n1. ノート名\n2. そのノートで確認できるAI連携の内容\n3. 実際の運用に役立ちそうなポイント\n\nを簡潔に整理してください。\n\n新しいノートは作成しないでください。\n既存のノートも変更しないでください。\n\n送信したら、検索結果を教えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:38:38.016Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 6677,
+    "outputTokens": 116
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:38:45.970Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 7493,
+    "outputTokens": 345
+  }
+}
+
+--- API_RESPONSE [2026-08-20T10:38:57.814Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 10659,
+    "outputTokens": 577
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T10:40:45.964Z] ---
+{
+  "userMessage": "Obsidian内の「AI連携」に関係するノートから、\n「検索」「読み取り」「新規ノート作成」「編集」\nの4つの機能について、実際に確認できた内容だけを探してください。\n\nそれぞれについて、\n\n・機能名\n・確認できたこと\n・テストに使用したノート名\n\nの3項目で整理してください。\n\n推測で補足しないでください。\nObsidian内で確認できた内容だけを使ってください。\n\n新しいノートは作成しないでください。\n既存のノートも変更しないでください。\n\n送信したら、検索結果を教えてください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T10:40:49.549Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 10488,
+    "outputTokens": 108
+  }
+}
