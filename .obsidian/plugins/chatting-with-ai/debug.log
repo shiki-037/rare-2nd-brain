@@ -282,3 +282,156 @@
     "outputTokens": 30
   }
 }
+
+--- USER_MESSAGE [2026-08-20T03:09:31.179Z] ---
+{
+  "userMessage": "Obsidianの保管庫から「AI活用テスト」という名前のノートを探してください。\n見つかったノートの内容を読み取り、要点を3つにまとめてください。\nノートの内容は変更しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T03:09:35.792Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 6139,
+    "outputTokens": 73
+  }
+}
+
+--- API_RESPONSE [2026-08-20T03:09:39.394Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 6235,
+    "outputTokens": 37
+  }
+}
+
+--- API_RESPONSE [2026-08-20T03:09:44.203Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 6322,
+    "outputTokens": 106
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T03:11:46.307Z] ---
+{
+  "userMessage": "Obsidianの保管庫に「実用テスト」という新しいノートを作成してください。\n\n本文は次の3行だけにしてください。\n\nChatGPTとObsidianの実用テストです。\n検索と読み取りは正常に動作しました。\n次は新規ノート作成を確認します。\n\n既存のノートは変更・削除しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T03:11:49.718Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 6555,
+    "outputTokens": 99
+  }
+}
+
+--- API_RESPONSE [2026-08-20T03:11:51.961Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 6679,
+    "outputTokens": 37
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T03:14:20.471Z] ---
+{
+  "userMessage": "現在のObsidian保管庫から、私が普段使っているノートを3つ探してください。\n\nそれぞれについて、\n1. ノート名\n2. 内容のテーマ\n3. どんな用途に使えそうか\n\nを簡潔に整理してください。\n\nノートの内容は変更・削除しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T03:14:23.991Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 6832,
+    "outputTokens": 111
+  }
+}
+
+--- API_RESPONSE [2026-08-20T03:14:29.490Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 7050,
+    "outputTokens": 201
+  }
+}
+
+--- API_RESPONSE [2026-08-20T03:14:35.334Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 9222,
+    "outputTokens": 199
+  }
+}
+
+--- USER_MESSAGE [2026-08-20T03:16:54.999Z] ---
+{
+  "userMessage": "Obsidianの保管庫に「AI連携実用テスト2」という新しいノートを作成してください。\n\n本文は次の3行だけにしてください。\n\nChatGPTとObsidianのAI連携テスト2です。\n既存ノートの検索と読み取りに成功しました。\n次はAIによる新規ノート作成を確認します。\n\n既存のノートは変更・削除しないでください。",
+  "hasSelection": false
+}
+
+--- API_RESPONSE [2026-08-20T03:16:58.900Z] ---
+{
+  "stopReason": "tool_use",
+  "contentTypes": [
+    "text",
+    "tool_use"
+  ],
+  "usage": {
+    "inputTokens": 8963,
+    "outputTokens": 110
+  }
+}
+
+--- API_RESPONSE [2026-08-20T03:17:03.617Z] ---
+{
+  "stopReason": "end_turn",
+  "contentTypes": [
+    "text"
+  ],
+  "usage": {
+    "inputTokens": 9102,
+    "outputTokens": 41
+  }
+}
